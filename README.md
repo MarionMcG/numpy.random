@@ -29,6 +29,7 @@ In this file you will find:
 
 **NOTE:** When opening Jupyter notebook, ensure your downloaded ipynb file is in a subdirectory of the folder you are in. You may use the cd/ command to go to the top of your directory, to ensure this is the case. Alternatively if you're familiar with commands, you may use the 'cd' command to navigate to the directory containing your notebook.
 * From the webpage, navigate to the folder containing your ipynb file and click to open in a new tab. 
+* When you are finished, go to the taskbar tab, File and choose Close and Halt. Close all windows. In your terminal, to close Jupyter Notebook press Ctrl+C.
 
 ### 3. Running code from an ipynb file
 Firstly as much of the code in this notebook is dependent on variables in previous cells, I would advise running all cells at the beginning. To do this, go to taskbar button Cell, and select Run All from the drop down menu. 
@@ -42,11 +43,11 @@ You can also run an individual cell, by pressing Shift+p.
 ### 4. Appproach and Evaluation 
 My approach was to work my way through each of the functions and classes included in the numpy.random package. I planned to:
 * Examine all or most of the random number generators, listed under the heading Simple Random Data
-* Examine some of the functions which could be used for sampling datasets, listed under the heading Simple Random Data
+* Examine a function which could be used for sampling datasets.
 * Examine functions which could be used to shuffle variables, listed under the heading Permutations. 
 * Examine five distribution
-  1. Normal 
-  2. Uniform
+  1. Uniform
+  2. Normal
   3. Binomial
   4. Poisson
   5. Exponential
@@ -64,4 +65,4 @@ My approach was to work my way through each of the functions and classes include
 ### 6. A note on References
 * In my notebook, I have referenced websites and documentation accessed during the course of this assignment. 
 * Due to my own background in Mathematics, there are not many references for a number of the distributions examined. This is because I already have experience with the Normal and Binomial distributions, and relied on my own understanding. So all errors are my own.
-* Leaving Cert and A Level Maths books consulted during the investigation are not included in my references, but they are the source of at least one example.
+* Leaving Cert and A Level Maths books consulted during the investigation are not included in my references.
